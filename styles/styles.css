@@ -1,0 +1,48 @@
+body {
+	background: #000000 url(../img/background.png) no-repeat;
+	background-size: cover;
+	color: #FFFFFF;
+  	width: 500px;
+  	margin: 0 auto;
+}
+
+li {
+	cursor: pointer;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+#main_title {
+	text-align: center;
+	color:#DD00FF;
+	margin: 10px;
+}
+
+#page_title {
+	color: #000000;
+	position: absolute; 
+	padding-left: 20px;
+}
+
+#paragraph {
+	margin: 10px;
+}
+
+#image {
+	/* max-width: 200px;
+	max-height: 200px; */
+    vertical-align: middle;
+	width: 500px;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 5px;
+	border-bottom: 5px solid rgba(0, 0, 0, .8);
+}
+
+#main_container {
+	border: 5px solid rgba(0, 0, 0, .8);
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, .3);
+	width: 500px;
+	padding: 0px;
+}
